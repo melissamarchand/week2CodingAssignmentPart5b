@@ -1,0 +1,32 @@
+package week2CodingAssignmentLoops;
+
+public class week2CodingAssignmentLoops {
+
+	public static void main(String[] args) {
+		// 5a. while loop that prints all even numbers from 0 - 100
+		// int x = 0;
+		// while (x < 101) {
+		// x++;
+		// if (x % 2 == 0)
+		// System.out.println(x);
+		// }
+		// 5b. while loop that prints every 3rd number going backwards from 100 to 0
+		int x = 103;
+		while (x > 3) {
+			x = x - 3;
+			System.out.println(x);
+
+			// 5c. for loop that prints every other number from 1 to 100
+			// for (int i = 1; i <= 100; i += 2) {
+			// System.out.println(i);
+
+			// 5d. for loop ...
+			// for (int i = 0; i <= 100; i++) {
+			// System.out.println(i);
+			// }
+
+			// for (int i = 3; i <= 100; i++) {
+			// System.out.println("hello");
+		}
+	}
+}
